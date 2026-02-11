@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+
+    margin: 20px;
+}
+
+
+.static {
+    position: static;
+}
+
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color: lightgreen;
+}
+
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    background-color: lightcoral;
+}

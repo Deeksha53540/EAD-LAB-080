@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My College Website</title>
+
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        
+        nav {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+        }
+
+        nav a:hover {
+            background: #34495e;
+        }
+
+        
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+       
+        .sidebar {
+            width: 30%;
+            padding: 15px;
+            background: #ecf0f1;
+        }
+
+        
+        .content {
+            width: 70%;
+            padding: 15px;
+        }
+
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        
+        .box {
+            border: 1px solid gray;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: white;
+        }
+
+        
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar,
+            .content {
+                width: 100%;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Chaitanya Bharathi Institute of Technology </h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Departments</a>
+        <a href="#">Admissions</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="sidebar">
+        <div class="box">
+            <h3>Announcements</h3>
+            <p>Admissions open for 2026 batch.</p>
+        </div>
+
+        <div class="box">
+            <h3>Events</h3>
+            <p>Tech Fest coming soon!</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="box">
+            <h2>Welcome to Our College</h2>
+            <p>
+                Our college provides quality education in engineering and
+                technology with modern labs and experienced faculty.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Experienced Faculty</li>
+                <li>Modern Infrastructure</li>
+                <li>Placement Support</li>
+                <li>Industry Exposure</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Chaitanya Bharathi Institute of Technology 
+</footer>
+
+</body>
+</html>

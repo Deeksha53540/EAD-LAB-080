@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    padding: 30px;
+}
+
+.box {
+    flex: 1;
+    height: 150px;
+
+    background-color: steelblue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+
+    .layout {
+        flex-direction: column;  
+    }
+
+}
