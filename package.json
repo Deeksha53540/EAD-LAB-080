@@ -1,10 +1,6 @@
 {
-  "name": "week8",
-  "private": true,
-  "scripts": {
-    "postinstall": "npm --prefix client install",
-    "dev": "npm --prefix client run dev --",
-    "build": "npm --prefix client run build",
-    "preview": "npm --prefix client run preview --"
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0"
   }
 }
