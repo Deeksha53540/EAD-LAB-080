@@ -1,0 +1,18 @@
+.menu{
+    list-style: none;
+    padding:0 ;
+    margin: 0;
+    background-color: cadetblue;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    display: block;
+    padding: 15px 25px;
+    color: beige;
+    text-decoration: darkcyan;
+}
+.menu li a:hover{
+    background-color: blanchedalmond;
+}
